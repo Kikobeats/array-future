@@ -2,7 +2,6 @@
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/array-future.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/array-future/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/array-future)
-[![Coverage Status](http://img.shields.io/coveralls/Kikobeats/array-future/master.svg?style=flat-square)](https://coveralls.io/r/Kikobeats/array-future?branch=master)
 [![Dependency status](http://img.shields.io/david/Kikobeats/array-future.svg?style=flat-square)](https://david-dm.org/Kikobeats/array-future)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/array-future.svg?style=flat-square)](https://david-dm.org/Kikobeats/array-future#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/array-future.svg?style=flat-square)](https://www.npmjs.org/package/array-future)
