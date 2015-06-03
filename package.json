@@ -1,0 +1,39 @@
+{
+  "name": "array-future",
+  "description": "A collection of array ponyfills prototypes as proposition for ECMAScript 7",
+  "homepage": "https://github.com/Kikobeats/array-future",
+  "version": "0.1.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": "Kikobeats/array-future",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/array-future/issues"
+  },
+  "keywords": ["array", "extend", "prototype", "utils", "future"],
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "*",
+    "coffee-script": "*",
+    "coffeeify": "*",
+    "gulp": "*",
+    "gulp-header": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "mocha": "*",
+    "should": "*",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.4.0"
+  },
+  "scripts": {
+    "test": "sh test/test.sh"
+  },
+  "license": "MIT"
+}
