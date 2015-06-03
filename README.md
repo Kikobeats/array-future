@@ -56,5 +56,3 @@ require('array-future');
 ## License
 
 MIT © [Kiko Beats](http://www.kikobeats.com)
-
-
