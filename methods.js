@@ -2,9 +2,19 @@
 
 module.exports = {
 
-  contains: function(elem) {
-    if (!elem) return false;
-    return this.indexOf(elem) !== -1;
+  includes: function(elem, fromIndex) {
+
+    var requireFromIndex = (typeof fromIndex === 'number') && fromIndex >= 0;
+
+    if(isNaN(elem)) {
+        return this.some(function (currentElem, index) {
+            return isNaN(elem) && (!requireFromIndex || index >= fromIndex);
+        });
+    }
+
+    var index = this.indexOf(elem);
+
+    return requireFromIndex ? index >= fromIndex : index !== -1;
   },
 
   first: function() {
@@ -95,13 +105,13 @@ module.exports = {
 
   intersect: function(arr) {
     return this.filter(function(elem) {
-      return arr.contains(elem);
+      return arr.includes(elem);
     });
   },
 
   difference: function(arr) {
     return this.filter(function(elem) {
-      return !arr.contains(elem);
+      return !arr.includes(elem);
     });
   }
 };
