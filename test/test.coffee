@@ -28,15 +28,21 @@ describe 'Array Future ::', ->
   it 'compact', ->
     ['','1','2',3,'4',undefined,'5'].compact().length.should.be.equal(6)
 
-  it 'contains', ->
-    ['1', '2', '3'].contains('1').should.be.equal(true)
-
   it 'difference', ->
     [1, 2, 3].difference([2, 0, 5, 1]).toString().should.be.equal([3].toString())
 
   it 'first',  ->
     ['1', '2', '3'].first().should.be.equal('1')
 
+  describe 'includes', ->
+    it 'should identify that an element is in the array', ->
+        ['1', '2', '3'].includes('1').should.be.equal(true)
+    it 'should correctly identify NaN', ->
+        [1, 2, NaN].includes(NaN).should.be.equal(true)
+    it 'should treat -0 and +0 as equal', ->
+        [1, 2, -0].includes(+0).should.be.equal(true)
+    it 'should not identify elements that are indexed below fromIndex', ->
+        [1, 2, 3].includes(1, 1).should.be.equal(false)
 
   it 'intersect', ->
     [1, 2, 3].intersect([2, 0, 5, 1]).toString().should.be.equal([1, 2].toString())
