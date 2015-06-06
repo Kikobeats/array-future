@@ -74,3 +74,14 @@ describe 'Array Future ::', ->
     arr[0].should.be.equal('0')
     arr[1].should.be.equal('1')
     arr.length.should.be.equal(2)
+
+  it 'zip', ->
+    firstArray = [1, 2, 3]
+    notArray = 2
+    secondArray = [1, 2, 3, 4]
+    zippedArray = firstArray.zip notArray, secondArray
+    zippedArray.length.should.be.equal(4)
+    for item, index in zippedArray
+      item.length.should.be.equal(2)
+      should(item[0]).be.equal firstArray[index]
+      should(item[1]).be.equal secondArray[index]
