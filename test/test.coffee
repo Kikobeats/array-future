@@ -7,6 +7,11 @@ describe 'Array Future ::', ->
   it 'average', ->
     [1, 2, 3].average().should.be.equal(2)
 
+  it 'clear',  ->
+    arr = [0, 1, 2, 3]
+    arr.clear()
+    arr.length.should.be.equal(0)
+
   it 'clone',  ->
     arr = [0, 1, 2, 3]
     arr2 = arr.clone()
@@ -26,10 +31,8 @@ describe 'Array Future ::', ->
   it 'difference', ->
     [1, 2, 3].difference([2, 0, 5, 1]).toString().should.be.equal([3].toString())
 
-  it 'empty',  ->
-    arr = [0, 1, 2, 3]
-    arr.empty()
-    arr.length.should.be.equal(0)
+  it 'empty', ->
+    [].empty().should.be.equal true
 
   it 'first',  ->
     ['1', '2', '3'].first().should.be.equal('1')
@@ -48,9 +51,6 @@ describe 'Array Future ::', ->
 
   it 'intersect', ->
     [1, 2, 3].intersect([2, 0, 5, 1]).toString().should.be.equal([1, 2].toString())
-
-  it 'isEmpty', ->
-    [].isEmpty().should.be.equal true
 
   it 'last', ->
     ['1', '2', '3'].last().should.be.equal('3')

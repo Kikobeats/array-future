@@ -38,6 +38,7 @@ require('array-future');
 ## API
 
 * Array.average()
+* Array.clear()
 * Array.clone()
 * Array.combination({size})
 * Array.compact()
@@ -46,7 +47,6 @@ require('array-future');
 * Array.first()
 * Array.includes({elem})
 * Array.intersect({Array})
-* Array.isEmpty()
 * Array.last()
 * Array.replace({oldElem}, {newElem})
 * Array.remove({elem})
