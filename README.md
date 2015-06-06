@@ -52,6 +52,7 @@ require('array-future');
 * Array.shuffle()
 * Array.sum()
 * Array.unique()
+* Array.zip({...others})
 
 ## License
 
