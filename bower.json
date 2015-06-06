@@ -1,6 +1,6 @@
 {
   "name": "array-future",
-  "description": "A collection of array ponyfills prototypes as proposition for ECMAScript 7",
+  "description": "A collection of Array prototypes prollyfills as proposition for ECMAScript 7.",
   "homepage": "https://github.com/Kikobeats/array-future",
   "version": "0.2.0",
   "main": "./dist/array-future.js",
