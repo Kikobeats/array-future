@@ -7,9 +7,9 @@
 [![NPM Status](http://img.shields.io/npm/dm/array-future.svg?style=flat-square)](https://www.npmjs.org/package/array-future)
 [![Gittip](http://img.shields.io/gittip/Kikobeats.svg?style=flat-square)](https://www.gittip.com/Kikobeats/)
 
-> A collection of ponyfills array prototypes as proposition for ECMAScript 7.
+> A collection of Array prototypes prollyfills as proposition for ECMAScript 7.
 
-> Ponyfill: A polyfill that doesn't overwrite the native method.
+> Prollyfill A polyfill for a not yet standardized API.
 
 ## Install
 
@@ -37,20 +37,21 @@ require('array-future');
 
 ## API
 
-* Array.contains({elem})
-* Array.first()
-* Array.last()
 * Array.average()
-* Array.sum()
-* Array.unique()
+* Array.clear()
+* Array.clone()
+* Array.combination({size})
 * Array.compact()
+* Array.difference({Array})
+* Array.first()
+* Array.includes({elem})
+* Array.intersect({Array})
+* Array.last()
 * Array.replace({oldElem}, {newElem})
 * Array.remove({elem})
-* Array.clear()
 * Array.shuffle()
-* Array.combination({size})
-* Array.intersect({Array})
-* Array.difference({Array})
+* Array.sum()
+* Array.unique()
 
 ## License
 
