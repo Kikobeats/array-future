@@ -1,6 +1,6 @@
 'use strict';
 
-var methods = require('./lib/methods');
+var methods = require('./lib');
 
 module.exports = (function() {
   Object.keys(methods).forEach(function(method) {
