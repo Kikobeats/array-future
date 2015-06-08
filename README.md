@@ -37,6 +37,8 @@ require('array-future');
 
 ## API
 
+### Instance
+
 * Array.average()
 * Array.clear()
 * Array.clone()
@@ -48,12 +50,18 @@ require('array-future');
 * Array.includes({elem})
 * Array.intersect({Array})
 * Array.last()
+* Array.max()
+* Array.min()
 * Array.replace({oldElem}, {newElem})
 * Array.remove({elem})
 * Array.shuffle()
 * Array.sum()
 * Array.unique()
 * Array.zip({...others})
+
+### Static
+
+* Array.range({start, stop, step})
 
 ## License
 
