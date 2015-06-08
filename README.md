@@ -9,7 +9,7 @@
 
 > A collection of Array prototypes prollyfills as proposition for ECMAScript 7.
 
-> Prollyfill A polyfill for a not yet standardized API.
+> Prollyfill: A polyfill for a not yet standardized API.
 
 ## Install
 
