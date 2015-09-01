@@ -5,7 +5,7 @@
 [![Dependency status](http://img.shields.io/david/Kikobeats/array-future.svg?style=flat-square)](https://david-dm.org/Kikobeats/array-future)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/array-future.svg?style=flat-square)](https://david-dm.org/Kikobeats/array-future#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/array-future.svg?style=flat-square)](https://www.npmjs.org/package/array-future)
-[![Gittip](http://img.shields.io/gittip/Kikobeats.svg?style=flat-square)](https://www.gittip.com/Kikobeats/)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > A collection of Array prototypes prollyfills as proposition for ECMAScript 7.
 
