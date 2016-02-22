@@ -39,7 +39,6 @@ require('array-future');
 
 ### Instance
 
-* Array.average()
 * Array.clear()
 * Array.clone()
 * Array.combination({size})
@@ -51,6 +50,8 @@ require('array-future');
 * Array.intersect({Array})
 * Array.last()
 * Array.max()
+* Array.mean()
+* Array.median()
 * Array.min()
 * Array.replace({oldElem}, {newElem})
 * Array.remove({elem})
