@@ -6,9 +6,6 @@ describe 'Array Future ::', ->
 
   describe 'instance', ->
 
-    it 'mean', ->
-      [1, 2, 3].mean().should.be.equal(2)
-
     it 'clear',  ->
       arr = [0, 1, 2, 3]
       arr.clear()
@@ -83,6 +80,14 @@ describe 'Array Future ::', ->
 
     it 'max', ->
       [1, 2, 3].max().should.be.equal(3)
+
+    it 'mean', ->
+      [1, 2, 3].mean().should.be.equal(2)
+
+    it 'median', ->
+      arr = [2, 56, 3, 41, 0, 4, 100, 23]
+      arr.median().should.be.equal(13.5)
+      arr[0].should.be.equal(2)
 
     it 'min', ->
       [1, 2, 3].min().should.be.equal(1)
