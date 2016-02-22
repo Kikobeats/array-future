@@ -6,8 +6,8 @@ describe 'Array Future ::', ->
 
   describe 'instance', ->
 
-    it 'average', ->
-      [1, 2, 3].average().should.be.equal(2)
+    it 'mean', ->
+      [1, 2, 3].mean().should.be.equal(2)
 
     it 'clear',  ->
       arr = [0, 1, 2, 3]
