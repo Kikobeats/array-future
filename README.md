@@ -64,6 +64,10 @@ require('array-future');
 
 * Array.range({start, stop, step})
 
+## Related
+
+* [array-list](https://github.com/Kikobeats/array-list) – Simple array list implementation.
+
 ## License
 
 MIT © [Kiko Beats](http://www.kikobeats.com)
