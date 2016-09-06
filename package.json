@@ -5,8 +5,8 @@
   "version": "0.5.0",
   "main": "./index.js",
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
   "repository": {
@@ -34,13 +34,19 @@
     "gulp-util": "latest",
     "mocha": "latest",
     "should": "latest",
-    "standard": "~8.0.0",
+    "standard": "latest",
     "vinyl-buffer": "latest",
     "vinyl-source-stream": "latest"
   },
   "engines": {
     "node": ">= 0.10"
   },
+  "files": [
+    "lib",
+    "dist",
+    "register.js",
+    "index.js"
+  ],
   "scripts": {
     "test": "sh test/test.sh"
   },
