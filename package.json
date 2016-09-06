@@ -34,6 +34,7 @@
     "gulp-util": "latest",
     "mocha": "latest",
     "should": "latest",
+    "standard": "~8.0.0",
     "vinyl-buffer": "latest",
     "vinyl-source-stream": "latest"
   },

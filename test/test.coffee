@@ -1,5 +1,5 @@
 'use strict'
-require('..')
+require('../register')
 should = require 'should'
 
 describe 'Array Future ::', ->
@@ -91,6 +91,9 @@ describe 'Array Future ::', ->
 
     it 'mode', ->
       [1, 1, 1, 3, 4, 5].mode().should.be.equal(1)
+
+    it 'range', ->
+      [1, 1, 1, 3, 4, 5].range().should.be.equal(4)
 
     it 'min', ->
       [1, 2, 3].min().should.be.equal(1)

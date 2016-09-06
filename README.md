@@ -31,8 +31,16 @@ and later link in your HTML:
 
 ## Usage
 
+### As library
+
 ```js
-require('array-future');
+var arrayFuture = require('array-future')
+```
+
+### As global
+
+```js
+require('array-future/register')
 ```
 
 ## API
@@ -53,8 +61,10 @@ require('array-future');
 * Array.mean()
 * Array.median()
 * Array.min()
-* Array.replace({oldElem}, {newElem})
+* Array.mode()
+* Array.range()
 * Array.remove({elem})
+* Array.replace({oldElem}, {newElem})
 * Array.shuffle()
 * Array.sum()
 * Array.unique()
