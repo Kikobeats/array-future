@@ -1,3 +1,15 @@
+<a name="0.6.0"></a>
+# 0.6.0 (2016-09-06)
+
+* add .mode ([b6ddc20](https://github.com/kikobeats/array-future/commit/b6ddc20))
+* Add .range ([8814078](https://github.com/kikobeats/array-future/commit/8814078))
+* Fix ([1000167](https://github.com/kikobeats/array-future/commit/1000167))
+* Improve register ([df94b13](https://github.com/kikobeats/array-future/commit/df94b13))
+* Little refactor ([0c37d38](https://github.com/kikobeats/array-future/commit/0c37d38))
+* Update README.md ([c716cb6](https://github.com/kikobeats/array-future/commit/c716cb6))
+
+
+
 <a name="0.5.0"></a>
 # 0.5.0 (2016-02-22)
 
