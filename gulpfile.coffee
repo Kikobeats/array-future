@@ -15,7 +15,7 @@ source     = require 'vinyl-source-stream'
 # -- Files ---------------------------------------------------------------------
 
 src =
-  main: './index.js'
+  main: './register.js'
 
 module =
   filename : "#{pkg.name}.js"
@@ -33,10 +33,9 @@ banner = [
 # -- Tasks ---------------------------------------------------------------------
 
 gulp.task 'browserify', ->
-  browserify
-      extensions: ['.coffee', '.js']
+  browserify()
     .transform coffeeify
-    .require(src.main, { expose: module.shortcut})
+    .require(src.main, expose: module.shortcut)
     .ignore('coffee-script')
     .bundle()
   .pipe source module.filename
