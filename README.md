@@ -77,6 +77,7 @@ require('array-future/register')
 ## Related
 
 * [array-list](https://github.com/Kikobeats/array-list) – Simple array list implementation.
+* [json-future](https://github.com/Kikobeats/json-future) – Unbelievable and Modern JSON interface.
 
 ## License
 
