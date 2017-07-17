@@ -1,5 +1,7 @@
 # array-future
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/array-future.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/array-future.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/array-future/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/array-future)
 [![Dependency status](http://img.shields.io/david/Kikobeats/array-future.svg?style=flat-square)](https://david-dm.org/Kikobeats/array-future)
