@@ -1,9 +1,9 @@
 {
   "name": "array-future",
-  "description": "A collection of Array prototypes prollyfills as proposition for ECMAScript 7.",
+  "description": "Proposed Array prototype helpers and polyfills exploring future ECMAScript collection APIs.",
   "homepage": "https://github.com/Kikobeats/array-future",
   "version": "0.6.0",
-  "main": "./index.js",
+  "main": "./lib/instance",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
@@ -18,8 +18,13 @@
   },
   "keywords": [
     "array",
+    "collection",
+    "ecmascript",
     "extend",
     "future",
+    "helpers",
+    "polyfill",
+    "proposal",
     "prototype",
     "utils"
   ],
@@ -42,10 +47,10 @@
     "node": ">= 0.10"
   },
   "files": [
-    "lib",
     "dist",
-    "register.js",
-    "index.js"
+    "index.js",
+    "lib",
+    "register.js"
   ],
   "scripts": {
     "test": "sh test/test.sh"
